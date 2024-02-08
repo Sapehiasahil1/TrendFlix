@@ -134,7 +134,7 @@ interface ApiService {
         @Query("page") page: Int =0,
         @Query("api_key") apiKey: String = BuildConfig.API_KEY,
         @Query("language") language: String = "en-US"
-    )
+    ): FilmResponse
 
     @GET("tv/top_rated")
     suspend fun getTopRatedTvShows(

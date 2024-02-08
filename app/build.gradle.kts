@@ -9,7 +9,7 @@ plugins {
 
 android {
     namespace = "com.example.trendflix"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.trendflix"
@@ -36,11 +36,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "17"
     }
     buildFeatures {
         compose = true
@@ -77,7 +77,7 @@ dependencies {
     // Room
     val room_version = "2.6.1"
     implementation("androidx.room:room-runtime:$room_version")
-    annotationProcessor("androidx.room:room-compiler:$room_version")
+    kapt("androidx.room:room-compiler:$room_version")
     implementation("androidx.room:room-ktx:$room_version")
 
     // Prefs Datastore
@@ -114,7 +114,7 @@ dependencies {
     implementation ("com.github.skydoves:landscapist-coil:2.2.13")
 
     // RatingBar
-    implementation ("com.github.a914-gowtham:compose-ratingbar:1.2.3")
+    implementation ("io.github.a914-gowtham:compose-ratingbar:1.0.6")
 
     // Timber
     implementation ("com.jakewharton.timber:timber:5.0.1")
@@ -133,7 +133,7 @@ dependencies {
     // Hilt
     implementation ("com.google.dagger:hilt-android:2.44")
     kapt ("com.google.dagger:hilt-android-compiler:2.44")
-    implementation ("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
+//    implementation ("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
     kapt ("androidx.hilt:hilt-compiler:1.1.0")
 
     // Hilt - for @HiltViewModel
