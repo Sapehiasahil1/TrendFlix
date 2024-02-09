@@ -15,9 +15,9 @@ An android app built using Jetpack Compose that consumes [TMDB API](https://deve
 - [Accompanist - System UI Controller](https://github.com/google/accompanist/blob/main/systemuicontroller) - A library that provides easy-to-use utilities for recoloring the Android system bars from Jetpack Compose.
 - [Landscapist - CoilImage Loader](https://github.com/skydoves/landscapist) - Landscapist is a Jetpack Compose image loading library which fetches and displays network images with **Glide**, **Coil**, and **Fresco**.
 - [Compose Rating bar](https://github.com/a914-gowtham/compose-ratingbar) - A rating bar for Jetpack compose made by [@Gowtham](https://github.com/a914-gowtham).
-- [Compose Pagination](https://developer.android.com/jetpack/androidx/releases/paging) - The Paging Library makes it easier for you to load data gradually and gracefully within your app.
-- [Retrofit](https://square.github.io/retrofit/) - Type-safe http client 
+- [Compose Pagination]- The Paging Library makes it easier for you to load data gradually and gracefully within your app.
+- [Retrofit]- Type-safe http client 
 and supports coroutines out of the box.
 - [Lottie Files for Compose](https://github.com/airbnb/lottie) - Lottie is a library for Android, iOS, and Web that parses [Adobe After Effects](http://www.adobe.com/products/aftereffects.html) animations exported as json with [Bodymovin](https://github.com/airbnb/lottie-web) and renders them natively on mobile and on the web!
-- [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library Support for coroutines.
-- [Flows](https://developer.android.com/kotlin/flow) - Flows are built on top of coroutines and can provide multiple values. A flow is conceptually a stream of data that can be computed asynchronously.
+- [Coroutines]- Library Support for coroutines.
+- [Flows] - Flows are built on top of coroutines and can provide multiple values. A flow is conceptually a stream of data that can be computed asynchronously.
