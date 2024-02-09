@@ -24,4 +24,4 @@ and supports coroutines out of the box.
 
 # Screenshots
 <img src="media_trendflix/splash_screen.jpg" width="250" /> <img src="media_trendflix/home_screen.jpg" width="250" /> <img src="media_trendflix/detail_screen.jpg" width="250" />
-<img src="media_trendflix/profile_screen.jpg" width="250" />
+<img src="media_trendflix/profile_section.jpg" width="250" />
