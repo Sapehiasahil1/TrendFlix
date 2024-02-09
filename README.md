@@ -21,3 +21,7 @@ and supports coroutines out of the box.
 - [Lottie Files for Compose](https://github.com/airbnb/lottie) - Lottie is a library for Android, iOS, and Web that parses [Adobe After Effects](http://www.adobe.com/products/aftereffects.html) animations exported as json with [Bodymovin](https://github.com/airbnb/lottie-web) and renders them natively on mobile and on the web!
 - [Coroutines]- Library Support for coroutines.
 - [Flows] - Flows are built on top of coroutines and can provide multiple values. A flow is conceptually a stream of data that can be computed asynchronously.
+
+# Screenshots
+<img src="media_trendflix/splash_screen.jpg" width="250" /> <img src="media_trendflix/home_screen.jpg" width="250" /> <img src="media_trendflix/detail_screen.jpg" width="250" />
+<img src="media_trendflix/profile_screen.jpg" width="250" />
